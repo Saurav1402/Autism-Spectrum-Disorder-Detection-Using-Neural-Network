@@ -1,0 +1,112 @@
+/* General styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Sidebar styling */
+.css-1d391kg { /* Streamlit's default sidebar class */
+  background: linear-gradient(135deg, #dfe9f3, #ffffff);
+  color: #333;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.css-1d391kg .css-10trblm { /* Menu title */
+  color: #333;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* Input field styling */
+input {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 1em;
+  width: 100%;
+  margin: 10px 0;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #85c1e9;
+  outline: none;
+}
+
+/* Button styling */
+button {
+  background: #F4F6FF;
+  color: #333;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #F4F6FF;
+}
+
+/* Title styling */
+h1, h2, h3 {
+  color: #85c1e9;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Progress bar styling */
+.css-1siy2j7 { /* Streamlit's default progress bar class */
+  background: linear-gradient(135deg, #a9d6f5, #d4e6f1);
+  border-radius: 8px;
+  height: 10px;
+}
+
+/* Success and Warning Messages */
+.css-1d391kg .st-bh {
+  background-color: #e8f5e9; /* Light green for success */
+  border-left: 5px solid #81c784;
+}
+
+.css-1d391kg .st-cl {
+  background-color: #fff9c4; /* Light yellow for warnings */
+  border-left: 5px solid #fbc02d;
+}
+
+/* Info Messages */
+.css-1d391kg .st-ea {
+  background-color: #e3f2fd; /* Light blue for info */
+  border-left: 5px solid #64b5f6;
+}
+
+/* Card styles */
+.stContainer {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+  margin: 20px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .css-1d391kg {
+      font-size: 0.9em;
+  }
+
+  input {
+      font-size: 0.9em;
+  }
+
+  button {
+      font-size: 0.9em;
+  }
+}
